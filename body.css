@@ -1,0 +1,241 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+/* ----------------------------------------------------------------- */
+
+
+/* --------------------------Formatting----------------------------- */
+
+
+/*------------------------------------------------------------------ */
+/* Banner */
+.banner{
+  color:darkred;
+  background:white;
+  padding-top:20px;
+  padding-bottom:20px;
+  font-size: 20px;
+position: sticky; top:0;
+}
+
+/* TOP Navigation */
+.menu-links a{
+  padding-top:4px;
+  color:white;
+  text-decoration: none;
+}    
+#top-menu { 
+  font-family: 'Rubik', sans-serif;
+  width:100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+#top-menu-div{
+  background-color:rgba(255, 255, 255, 0.33);
+}
+.menu-links {
+  border:1px solid transparent; 
+  display:block;
+  float:left; 
+  width:25%;
+  height:30px;
+}
+.menu-btn{
+  color:black;
+  background:white;
+  text-shadow: 3px 3px white;
+  border-radius: 8px;
+}
+
+/* Nav Hover Animations */
+.menu-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-links a {
+  display: inline-block;
+  /* defines the space between text and underline */
+    padding-bottom: 11px; 
+  position: relative;
+  
+}
+
+.menu-links a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  transition: width 0.25s ease-out;
+}
+.menu-links a:hover::before {
+  width: 100%;
+}
+
+/* Scroll bar */
+html {
+  --scrollbarBG: #CFD8DC;
+  --thumbBG: #90A4AE;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+
+/* Change Heading */
+
+/* h1 {
+    letter-spacing: 0.18em;
+}
+
+h2 {
+    letter-spacing: 0.14em;
+} */
+
+
+/* Change links */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Change text */
+
+.normal {
+font-family: 'Rubik', sans-serif;
+    max-width: 550px;
+    word-wrap: break-word;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+u{
+  font-family: 'EB Garamond', serif;
+  font-size:50px;
+  text-decoration: none;
+}
+ul {
+font-family: 'EB Garamond', serif;
+    max-width: 550px;
+    word-wrap: break-word;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+/* ----------------------------------------------------------------- */
+
+
+/* ------You should not touch this if you dont know what u do------- */
+
+
+/*------------------------------------------------------------------ */
+
+body {
+
+    background-image: url('https://i.pinimg.com/originals/e5/8d/c1/e58dc140e157a4282a02b65af048c6b8.gif');
+    background-repeat: repeat;
+    background-attachment: fixed;
+ background-size:cover ;
+   font-family: 'Rubik', sans-serif;
+    color: black;
+    text-align: center;
+    background-color: red;
+}
+
+nav {
+font-family: 'Rubik', serif;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 0.10em;
+    text-shadow: 3px 3px black;
+}
+
+
+#close-CSS {
+    background-image: url('img/sign.png');
+    background-size: 128px 55px;
+    height: 55px;
+    width: 128px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 20px;
+    margin-bottom: 35px;
+    border: black;
+}
+
+#close-CSS:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.header {
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: right;
+}
+
+#img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+/* Ads */
+.ads{
+  background:white;
+  margin-top:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
